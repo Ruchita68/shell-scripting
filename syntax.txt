@@ -1,0 +1,54 @@
+
+<> conditional statements:
+
+==> syntax if :
+
+if [ condition ];
+ then
+      statement
+ fi
+
+==> syntax if-else:
+
+ if [ condition ];
+ then
+     statement 1
+ else
+     statement 2
+ fi
+
+==> syntax if-elif:
+ if [ condition 1 ];
+ then
+     statement 1
+ elif [ condition 2 ];
+ then
+     statement 2
+ else
+     statement 3
+ fi
+
+<> looping statement:
+
+==> syntax for:
+
+for var in list
+do
+  statement
+done
+
+==> syntax while:
+
+while [ condition ];
+do
+  statement
+done
+
+==> syntax until:
+
+until [ cndition ];
+do
+  statement
+done
+
+
